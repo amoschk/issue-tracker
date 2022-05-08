@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /issue-tracker
+
+# context path
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: admin
+      password: ENC(ESiKeBFTzmUt2LLfjvuxIvB7+Y3XIf6kWCg2yPNh9DuWp5N0R3Xl74DW8UaTw1ux)
+      database: issue-tracker
+jasypt:
+  encryptor:
+    password: password
